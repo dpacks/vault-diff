@@ -1,0 +1,23 @@
+{
+  "name": "@dpack/vault-diff",
+  "version": "0.1.1",
+  "description": "Line by Line Diffs On dPack Vaults",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dbrowser/errors": "dbrowser/errors#master",
+    "binary-extensions": "^1.11.0",
+    "diff": "^3.5.0",
+    "textextensions": "^2.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
